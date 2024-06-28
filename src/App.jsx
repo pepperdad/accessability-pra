@@ -14,17 +14,17 @@ function App() {
           flexDirection: "column",
         }}
       >
-        <img style={{ height: "250px" }} src="src/assets/mobile/image1.jpeg" />
+        <img style={{ height: "250px" }} src="/src/assets/mobile/image1.jpeg" />
 
         <img
           style={{ height: "250px" }}
-          src="src/assets/mobile/image2.png"
+          src="/src/assets/mobile/image2.png"
           alt="cuti webbi"
         />
 
         <img
           style={{ height: "250px" }}
-          src="src/assets/mobile/image3.jpeg"
+          src="/src/assets/mobile/image3.jpeg"
           alt=""
         />
       </div>
