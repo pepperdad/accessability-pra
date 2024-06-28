@@ -43,11 +43,13 @@ function App() {
             paddingBottom: "20px",
           }}
         >
-          <img
-            src="/assets/log.png"
-            style={{ width: "95px", height: "50px", padding: "8px" }}
-            alt="로고"
-          />
+          <a href="/">
+            <img
+              src="/assets/log.png"
+              style={{ width: "95px", height: "50px", padding: "8px" }}
+              alt="로고"
+            />
+          </a>
           <div
             style={{
               display: "flex",
@@ -56,18 +58,10 @@ function App() {
             }}
           >
             <button>
-              <img
-                src="/assets/search.png"
-                style={{ width: "40px", height: "40px" }}
-                alt="검색"
-              />
+              <img src="/assets/search.png" alt="" />
             </button>
             <button>
-              <img
-                src="/assets/menu.svg"
-                style={{ width: "30px", height: "30px" }}
-                alt="메뉴"
-              />
+              <img src="/assets/menu.svg" alt="" />
             </button>
           </div>
         </div>
