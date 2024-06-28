@@ -43,11 +43,11 @@ function App() {
             paddingBottom: "20px",
           }}
         >
-          <a href="/">
+          <a href="/" aria-label="홈으로 돌아가기">
             <img
               src="/assets/log.png"
               style={{ width: "95px", height: "50px", padding: "8px" }}
-              alt=""
+              alt="로고"
             />
           </a>
           <div
