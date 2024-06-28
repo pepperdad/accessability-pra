@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div
+      {/* <div
         style={{
           display: "flex",
           gap: "20px",
@@ -31,6 +31,50 @@ function App() {
           src="/assets/image3.jpeg"
           alt=""
         />
+      </div> */}
+
+      <div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            padding: "8px 24px",
+            backgroundColor: "white",
+            paddingBottom: "20px",
+          }}
+        >
+          <img
+            src="/assets/log.png"
+            style={{ width: "95px", height: "50px", padding: "8px" }}
+            alt="로고"
+          />
+          <div
+            style={{
+              display: "flex",
+              gap: "20px",
+              alignItems: "center",
+            }}
+          >
+            <button>
+              <img
+                src="/assets/search.png"
+                style={{ width: "40px", height: "40px" }}
+                alt="검색"
+              />
+            </button>
+            <button>
+              <img
+                src="/assets/menu.svg"
+                style={{ width: "30px", height: "30px" }}
+                alt="메뉴"
+              />
+            </button>
+          </div>
+        </div>
+        <img src="/assets/dan.png" alt="" />
+        <button>
+          <img src="/assets/search" alt="" />
+        </button>
       </div>
 
       {/* <div style={{ display: "flex", gap: "20px" }}>
