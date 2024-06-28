@@ -6,21 +6,25 @@ function App() {
 
   return (
     <>
-      <div style={{ display: "flex", gap: "20px", marginBottom: "30px" }}>
-        <img
-          style={{ width: "300px" }}
-          src="public/assets/mobile/image1.jpeg"
-        />
+      <div
+        style={{
+          display: "flex",
+          gap: "20px",
+          marginBottom: "30px",
+          flexDirection: "column",
+        }}
+      >
+        <img style={{ height: "250px" }} src="src/assets/mobile/image1.jpeg" />
 
         <img
-          style={{ width: "300px" }}
-          src="public/assets/mobile/image2.png"
+          style={{ height: "250px" }}
+          src="src/assets/mobile/image2.png"
           alt="cuti webbi"
         />
 
         <img
-          style={{ width: "300px" }}
-          src="public/assets/mobile/image3.jpeg"
+          style={{ height: "250px" }}
+          src="src/assets/mobile/image3.jpeg"
           alt=""
         />
       </div>
