@@ -47,7 +47,7 @@ function App() {
             <img
               src="/assets/log.png"
               style={{ width: "95px", height: "50px", padding: "8px" }}
-              alt="로고"
+              alt=""
             />
           </a>
           <div
