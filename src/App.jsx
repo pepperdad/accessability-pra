@@ -14,20 +14,22 @@ function App() {
           flexDirection: "column",
         }}
       >
-        <img style={{ height: "250px" }} src="/assets/image1.jpeg" />
+        <img style={{ height: "220px" }} src="/assets/image1.jpeg" />
 
         <img
-          style={{ height: "250px" }}
+          style={{ height: "220px" }}
           src="/assets/image2.png"
-          alt="cuti webbi"
+          alt="귀여운 화랑이"
         />
 
-        <img style={{ height: "250px" }} src="/assets/image3.jpeg" alt="" />
+        <img style={{ height: "220px" }} src="/assets/image3.jpeg" alt="" />
       </div>
 
       <div style={{ display: "flex", gap: "20px" }}>
         <button>submit</button>
+        <button>제출</button>
         <button aria-label="user info edit">submit</button>
+        <button aria-label="유저 정보 수정">submit</button>
       </div>
     </>
   );
