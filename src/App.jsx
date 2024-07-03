@@ -1,9 +1,6 @@
-import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div
@@ -15,7 +12,7 @@ function App() {
           alignItems: "center",
         }}
       >
-        <img src="/assets/image1.jpeg" />
+        {/* <img src="/assets/image1.jpeg" />
 
         <img src="/assets/image2.png" alt="귀여운 화랑이" />
 
@@ -53,7 +50,7 @@ function App() {
         <img src="/assets/dan.png" alt="" />
         <button>
           <img src="/assets/search" alt="" />
-        </button>
+        </button> */}
 
         <button>
           <a href="tel:01086273460">01086273460</a>
