@@ -52,8 +52,14 @@ function App() {
           <img src="/assets/search" alt="" />
         </button> */}
 
-        <button>
+        {/* <button>
           <a href="tel:01086273460">01086273460</a>
+        </button> */}
+
+        <button>
+          <a href="supertoss://send?bank=농협&accountNo=3561202376833&origin=linkgen&amount=10000&msg=안녕">
+            토스로 송금하기
+          </a>
         </button>
       </div>
 
