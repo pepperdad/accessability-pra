@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      {/* <div
+      <div
         style={{
           display: "flex",
           gap: "20px",
@@ -15,23 +15,12 @@ function App() {
           alignItems: "center",
         }}
       >
-        <img
-          style={{ width: "200px", height: "220px" }}
-          src="/assets/image1.jpeg"
-        />
+        <img src="/assets/image1.jpeg" />
 
-        <img
-          style={{ width: "200px", height: "220px" }}
-          src="/assets/image2.png"
-          alt="귀여운 화랑이"
-        />
+        <img src="/assets/image2.png" alt="귀여운 화랑이" />
 
-        <img
-          style={{ width: "200px", height: "220px" }}
-          src="/assets/image3.jpeg"
-          alt=""
-        />
-      </div> */}
+        <img src="/assets/image3.jpeg" alt="" />
+      </div>
 
       <div>
         <div
@@ -44,11 +33,7 @@ function App() {
           }}
         >
           <a href="/" aria-label="홈으로 돌아가기">
-            <img
-              src="/assets/log.png"
-              style={{ width: "95px", height: "50px", padding: "8px" }}
-              alt=""
-            />
+            <img src="/assets/logo.png" alt="" />
           </a>
           <div
             style={{
@@ -68,6 +53,10 @@ function App() {
         <img src="/assets/dan.png" alt="" />
         <button>
           <img src="/assets/search" alt="" />
+        </button>
+
+        <button>
+          <a href="tel:01086273460">01086273460</a>
         </button>
       </div>
 
