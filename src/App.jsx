@@ -11,7 +11,10 @@ function App() {
 
     // 하이퍼링크로 이동
     window.location.href = redirectUrl;
-    setRedirected(true);
+
+    setTimeout(() => {
+      setRedirected(true);
+    }, 1000);
   };
 
   if (redirected) {
