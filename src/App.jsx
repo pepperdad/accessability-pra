@@ -83,7 +83,14 @@ function App() {
         </button> */}
 
         <input type="text" />
-        <a href="https://www.naver.com">약관</a>
+
+        <p>
+          웹발신을 위해{" "}
+          <a href="https://jiwoothejay.notion.site/d39cdb16fbb64fc3bca2647199abcf3d?pvs=4">
+            개인정보
+          </a>
+          를 수집합니다.
+        </p>
 
         <button onClick={handleRedirect}>토스로 송금하기</button>
       </div>
