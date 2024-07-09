@@ -1,6 +1,29 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
+  const [redirected, setRedirected] = useState(false);
+
+  const handleRedirect = (e) => {
+    e.preventDefault();
+    const redirectUrl =
+      "supertoss://send?bank=농협&accountNo=3561202376833&origin=linkgen&amount=10000&msg=안녕";
+
+    // 하이퍼링크로 이동
+    window.location.href = redirectUrl;
+    setRedirected(true);
+  };
+
+  if (redirected) {
+    // 리디렉션 후 돌아왔을 때 보여줄 페이지
+    return (
+      <div>
+        <h1>리디렉션 후 페이지</h1>
+        <p>토스로 송금 후 돌아왔습니다.</p>
+      </div>
+    );
+  }
+
   return (
     <>
       <div
@@ -56,11 +79,10 @@ function App() {
           <a href="tel:01086273460">01086273460</a>
         </button> */}
 
-        <button>
-          <a href="supertoss://send?bank=농협&accountNo=3561202376833&origin=linkgen&amount=10000&msg=안녕">
-            토스로 송금하기
-          </a>
-        </button>
+        <input type="text" />
+        <a href="https://www.naver.com">약관</a>
+
+        <button onClick={handleRedirect}>토스로 송금하기</button>
       </div>
 
       {/* <div style={{ display: "flex", gap: "20px" }}>
